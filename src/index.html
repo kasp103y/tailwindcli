@@ -5,7 +5,465 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/index.css" rel="stylesheet" />
   </head>
-  <body class="bg-slate-100 dark:bg-slate-800">
-    <h1>Hello</h1>
+  <body class="">
+    <header></header>
+
+    <!-- Hero section -->
+    <section class="">
+      <article
+        class="grid grid-cols-6 bg-fixed grid-rows-3 bg-cover bg-no-repeat w-full h-[85vh] lg:bg-left-center lg:h-[90vh] lg:bg-cover"
+        style="
+          background-image: url(bogen/bogen-blaa.jpg);
+          background-position: 23%;
+        "
+      >
+        <article
+          class="grid col-start-2 row-start-2 col-span-4 justify-center self-center lg:col-start-4 lg:row-start-2 lg:col-span-3 lg:m-10"
+        >
+          <h1
+            class="font-bold text-3xl text-center mb-2 text-slate-800 lg:text-7xl"
+          >
+            Københavnerbilleder
+          </h1>
+          <p class="mb-2 font-bold text-center text-slate-800 lg:text-2xl">
+            En guide til hipster foto
+          </p>
+          <h2 class="mb-2 text-center italic text-slate-800 lg:text-lg">
+            af Sten Simons
+          </h2>
+          <div class="justify-self-center">
+            <button
+              class="bg-red-500 transition ease self-center text-slate-100 text-xl py-2 px-8 rounded-sm mr-3 shadow-3xl hover:bg-red-900 hover:shadow-4xl"
+            >
+              KØB NU
+            </button>
+          </div>
+        </article>
+      </article>
+    </section>
+
+    <!-- indledning flex -->
+    <section
+      class="mx-2 prose-img:rounded-2xl rounded-xl p-5 z-10 lg:mx-auto max-w-screen-xl"
+    >
+      <section class="">
+        <section class="">
+          <section>
+            <article class="lg:flex justify-evenly gap-10">
+              <p class="my-8">
+                Københavnerbilleder er de danske streetfotografers bibel: Det er
+                en fusion mellem et kunstværk og en lærebog. Bogen gennemgår
+                alle væsentlige aspekter af streetfotografering fra
+                grundlæggende teknik til kreative eksperimenter. Alt sammen
+                krydret med masser af inspirerende fotos. God læselyst!
+              </p>
+              <p class="my-8">
+                Titel: Københavnerbilleder - en guide til hipster foto
+                Forfatter: Sten Simons Antal sider: 344 Forlag: Mellem Linjerne
+                ISBN: 987-6-987654-32-1 Pris: 399.-
+              </p>
+            </article>
+          </section>
+
+          <!-- billeder fra bog - flex -->
+          <section class="mt-28">
+            <article
+              class="flex justify-between gap-4 overflow-x-auto my-4 lg:grid lg:grid-cols-3"
+            >
+              <img class="" src="billeder-fra-bog/lomo-smena-20.jpg" alt="" />
+
+              <img
+                class=""
+                src="billeder-fra-bog/amarminoen-med-et-agfa-le-box-3.jpg"
+                alt=""
+              />
+
+              <img
+                class=""
+                src="billeder-fra-bog/nikkormat-ft2-remiseparken-2.jpg"
+                alt=""
+              />
+            </article>
+          </section>
+        </section>
+
+        <!--Kapitler fra bog-->
+        <section>
+          <h2 class="text-2xl font-bold mt-28 mb-8">Bogens kapitler</h2>
+          <article class="lg:grid lg:grid-cols-2 gap-5">
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 1 - Intro til street foto
+              </h3>
+              <p>
+                Hvad er street foto? Det handler i bund og grund om at skyde
+                byens liv og byens geometri (urban geometry). I dette kapitel
+                får du en grundig intro til hvad street foto er og et overblik
+                over nogen af de kendte street-fotografer. Alt krydret med en
+                masse gode eksempler på street fotos.
+              </p>
+            </article>
+
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 2 - Om at skyde street
+              </h3>
+              <p>
+                Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud
+                på gaderne og prøve det! I dette kapitel får du en teknisk
+                indføring i hvordan du bedst skyder street. Uanset om du er
+                begynder eller professionel, er der mange gode tekniske tips og
+                tricks til street-skyderiet.
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 3 - Om at finde det rette motiv
+              </h3>
+              <p>
+                Indimellem er man heldig, andre gange kommer man hjem helt uden
+                gode motiver. Med et par tips og tricks til at finde de rette
+                motiver, stiger chancen gevaldigt for at fange de gode motiver.
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 4 - Digital street foto
+              </h3>
+              <p>
+                De fleste af os skyder oftest digitalt fordi det er billigere og
+                nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
+                digital street foto. I dette kapitel får du en række tips og
+                tricks til digital street-foto.
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 5 - Analog street foto
+              </h3>
+              <p>
+                Analog er sejt fordi det er mere “ægte,” dyrere og mere
+                besværligt end digital. Det signalerer entusiasme. Nogle
+                teknikker og fremgangsmåder egner sig bedst til analog street
+                foto. I dette kapitel får du en række tips og tricks til analog
+                street-foto.
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 6 - Om at skyde sort/hvid
+              </h3>
+              <p>
+                Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
+                Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og
+                hvad adskiller sort/hvid fra farvefotografering? Her får du en
+                række tips og tricks til sort/hvid fotografering.
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 7 - Kreative teknikker
+              </h3>
+              <p>
+                Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+                objektiver, gamle filmruller og alle mulige andre, spændende
+                kreative teknikker kan løfte dine fotografier fra at være
+                kedelige dokumentationer af hverdagen til at blive vilde
+                kunststykker. Så dyk ned i dette kapitel om eksperimenterende
+                teknikker!
+              </p>
+            </article>
+            <article>
+              <h3 class="font-bold text-xl my-3">
+                Kapitel 8 - Kom helt tæt på!
+              </h3>
+              <p>
+                Street foto handler om at fotografere livet på gaden - men tør
+                du at gå helt tæt på fremmede mennesker og knipse løs? Du kan
+                lige så godt øve dig, for det er det der vil gøre dig til en
+                bedre street-fotograf…
+              </p>
+            </article>
+          </article>
+        </section>
+        <!--Andmeldelser-->
+        <section>
+          <h2 class="text-2xl font-bold mt-28 mb-8">Det siger andmelderne</h2>
+          <article class="lg:grid lg:grid-cols-3 lg:gap-5">
+            <article class="mt-16">
+              <article class="my-2 flex flex-col items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="180"
+                  height="24.6"
+                  viewBox="0 0 270.662 37.036"
+                >
+                  <path
+                    id="Icon_awesome-star"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(-0.919 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-2"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(57.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-3"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(115.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-4"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(173.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-5"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(231.081 0.501)"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                </svg>
+                <p>5 ud af 6 stjerner</p>
+              </article>
+              <article class="">
+                <p class="text-sm">
+                  Københavnerbilleder er en grundig introduktion til at skyde
+                  billeder med retro-kant. Hvad enten du er har arbejdet med
+                  foto siden 135-filmen kom på markedet, du kun har skudt
+                  digitalt eller er helt nybegynder, er der masser af tips og
+                  tricks i bogen.
+                </p>
+                <p class="text-xs italic my-4 text-center">
+                  Hanne Hovgaard, Berlingeren
+                </p>
+              </article>
+            </article>
+
+            <article class="mt-16">
+              <article class="my-2 flex flex-col items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="180"
+                  height="24.6"
+                  viewBox="0 0 270.662 37.036"
+                >
+                  <path
+                    id="Icon_awesome-star"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(-0.919 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-2"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(57.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-3"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(115.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-4"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(173.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-5"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(231.081 0.501)"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                </svg>
+                <p class="text-sm">5 ud af 6 stjerner</p>
+              </article>
+              <article class="">
+                <p class="text-sm">
+                  Teksten er underholdende, og billederne er sku’ flotte. Hvad
+                  mere skal man sige om en fotobog?
+                </p>
+                <p class="text-xs italic my-4 text-center">
+                  Kim Kloggaard, Fotojournalen.dk
+                </p>
+              </article>
+            </article>
+
+            <article class="mt-16">
+              <article class="my-2 flex flex-col items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="180"
+                  height="24.6"
+                  viewBox="0 0 270.662 37.036"
+                >
+                  <path
+                    id="Icon_awesome-star"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(-0.919 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-2"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(57.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-3"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(115.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-4"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(173.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Icon_awesome-star-5"
+                    data-name="Icon awesome-star"
+                    d="M18.232,1.252l-4.591,9.309-10.273,1.5A2.251,2.251,0,0,0,2.123,15.9L9.555,23.14,7.8,33.37a2.249,2.249,0,0,0,3.262,2.37l9.19-4.83,9.19,4.83A2.25,2.25,0,0,0,32.7,33.37L30.945,23.14,38.377,15.9a2.251,2.251,0,0,0-1.245-3.839l-10.273-1.5L22.268,1.252a2.252,2.252,0,0,0-4.036,0Z"
+                    transform="translate(231.081 0.501)"
+                    stroke="#000"
+                    stroke-width="1"
+                  />
+                </svg>
+                <p class="text-sm">6 ud af 6 stjerner</p>
+              </article>
+              <article class="">
+                <p class="text-sm">
+                  Sten Simons kan det der - og han bliver bedre og bedre. Stens
+                  tredje fotobog er klart den bedste - her er han for alvor i
+                  sit rette element, meget bedre end “studiefotografering som
+                  begyndere.” Tillykke - godt arbejde.
+                </p>
+                <p class="text-xs italic my-4 text-center">
+                  Volmer Hansen, Lukkertiden.dk
+                </p>
+              </article>
+            </article>
+          </article>
+        </section>
+
+        <!--Galleri grid-->
+        <section class="grid grid-cols-2 gap-5">
+          <img
+            class="row-span-2 h-full w-full object-cover"
+            src="billeder-fra-bog/orestad-til-islands-brygge-pentax-auto-110-19.jpg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/amarminoen-med-et-agfa-le-box-11.jpg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/_6090016.jpeg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/agfa-genanvendeligt-kamera-35mm-film-2-5.jpg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/0008.jpg"
+            alt=""
+          />
+
+          <img
+            class="col-span-2 h-full w-full object-cover"
+            src="billeder-fra-bog/anamorfiske-landskaber-amager-faelled-4.jpg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/orestad-til-islands-brygge-pentax-auto-110-17.jpg"
+            alt=""
+          />
+
+          <img
+            class="h-full w-full object-cover"
+            src="billeder-fra-bog/nikkormat-ft2-remiseparken-2.jpg"
+            alt=""
+          />
+        </section>
+        <!--Om forfatter-->
+        <section>
+          <article
+            class="lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-4 mt-28 mb-8"
+          >
+            <article class="row-span-2">
+              <img src="bogen/sten_simons.jpg" alt="Sten" />
+            </article>
+
+            <article class="lg:row-start-2 lg:col-start-2">
+              <h2 class="text-2xl font-bold">Mød forfatteren</h2>
+              <p>
+                Sten Simons har en lang foto-karriere bag sig. Det hele startede
+                i 00’erne, da han gik rundt i Pisserenden for at fotografere
+                ungdommens forfald. Det ledte til en række udstillinger, og blev
+                senere til hans først fotobog “Ungdomsdruk - pinlige billeder
+                fra nattelivet.” Derefter tog karrieren fart: Han blev
+                fotojournalist og dokumenterede en masse dagligdagsstof fra
+                Amager på dagbladet “Amagerkaneren.” Sideløbende begyndte han at
+                undervise i foto, og har skrevet et utal af bøger, herunder
+                bestsellerne Scener fra S-toget, Brun mad - en visuel odysse, og
+                lærebogen Fotografering for evnesvage.
+              </p>
+            </article>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <footer></footer>
   </body>
 </html>
